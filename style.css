@@ -1,0 +1,23 @@
+body{
+    font-family: 'Audiowide', cursive;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 50%;
+}
+.name{
+    color: rgb(255, 72, 0);
+}
+.half-width{
+    width: 40%;
+    float: left;
+   margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 70%;
+    height: 70%;
+}
+
