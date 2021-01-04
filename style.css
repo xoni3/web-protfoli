@@ -1,11 +1,14 @@
 body{
-    font-family: 'Audiowide', cursive;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;;
 }
 h1{
     font-size: 60px;
+    font-family: 'Audiowide', cursive; 
 }
 p{
-    font-size: 50%;
+    font-size: 15px;
+    text-justify: newspaper;
 }
 .name{
     color: rgb(255, 72, 0);
@@ -19,5 +22,72 @@ p{
 .half-width img{
     width: 70%;
     height: 70%;
+    margin-left: 20%;
+    padding-left: 5%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, salmon,rgb(246, 62, 29) );
+    padding: 5px 11px;
+    border-radius: 5px;
+
+}
+.dream{
+    color: tomato;
+}
+.second-part{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+.second-part
+img{
+    width: 70%;
+    height: 70%;
+}
+.second-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Audiowide', cursive; 
+}
+h3{
+    color: tomato;
+}
+.exp{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
 }
 
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#firt-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, green, blue);
+    border-image-slice: 1;
+   
+    
+}
+#second-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon, red);
+    border-image-slice: 1;
+}
+footer p{ text-align: center;}
